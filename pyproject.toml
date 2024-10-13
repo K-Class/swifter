@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "swifter"
+version = "1.4.1"
+license = {file = "LICENSE"}
+authors = [
+  { name="Jason Carpenter", email="jcarpenter@manifold.ai" },
+]
+description = "A package which efficiently applies any function to a pandas dataframe or series in the fastest available manner"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    'Topic :: Software Development',
+    'Topic :: Scientific/Engineering',
+    'Typing :: Typed',
+    'Operating System :: Microsoft :: Windows',
+    'Operating System :: POSIX',
+    'Operating System :: Unix',
+    'Operating System :: MacOS',
+]
+
+[project.urls]
+Homepage = "https://github.com/K-Class/swifter/"
